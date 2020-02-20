@@ -2,5 +2,5 @@
 
 void main()
 {
-	printf("hello wwwwwwwwwwwwwwwwwwww\n");
+	printf("hello wwwwwwwwwwwwwwwwww\n");
 }
