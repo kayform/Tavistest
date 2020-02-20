@@ -1,8 +1,10 @@
-compiler: clang
+language: c
+compiler: gcc
 branches:
   only:
     - master
-notifications: 
-  email:
-    recipients:
-      - dev.jeffchoi@gmail.com
+script:
+  - gcc --coverage -O0 testmain.c -o testmain
+  - ./testmain
+  - gcov testmain.c
+
