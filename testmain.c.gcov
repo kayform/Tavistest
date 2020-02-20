@@ -1,0 +1,13 @@
+        -:    0:Source:testmain.c
+        -:    0:Graph:testmain.gcno
+        -:    0:Data:testmain.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    0:Source is newer than graph
+        -:    1:#include <stdio.h>
+        -:    2:
+        1:    3:int main()
+        -:    4:{
+        1:    5:	printf("hello wwwwwwwwwwwwwwwwwwww\n");
+        1:    6:	return 0;	
+        -:    7:}
