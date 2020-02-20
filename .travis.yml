@@ -16,7 +16,3 @@ script:
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 
-notifications: # 성공 실패 여부 알림 
-  email:
-    recipients:
-      - kayform@github.com
