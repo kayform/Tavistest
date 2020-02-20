@@ -9,7 +9,7 @@ notifications: # 성공 실패 여부 알림
     recipients:
       - kayform@github.com
 script:
-  - gcc -O0 testmain.c -o testmain
+  - gcc --coverage -O0 testmain.c -o testmain
   - ./testmain
   - gcov testmain.c
 
