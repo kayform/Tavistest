@@ -11,7 +11,7 @@ notifications: # 성공 실패 여부 알림
 script:
   - gcc -O0 testmain.c -o testmain
   - ./testmain
-  - gcov hello.c
+  - gcov testmain.c
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
