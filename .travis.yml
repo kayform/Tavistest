@@ -1,7 +1,21 @@
-compiler: clang
+language: c
+sudo: false # only for faster builds
+compiler: gcc
 branches:
   only:
     - master
+notifications: # 성공 실패 여부 알림 
+  email:
+    recipients:
+      - kayform@github.com
+script:
+  - gcc -O0 testmain.c -o testmain
+  - ./testmain
+  - gcov hello.c
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
 notifications: # 성공 실패 여부 알림 
   email:
     recipients:
