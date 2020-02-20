@@ -5,4 +5,4 @@ branches:
 notifications: # 성공 실패 여부 알림 
   email:
     recipients:
-      - dev.jeffchoi@gmail.com
+      - kayform@github.com
