@@ -4,10 +4,6 @@ compiler: gcc
 branches:
   only:
     - master
-notifications: # 성공 실패 여부 알림 
-  email:
-    recipients:
-      - robin@inzent.com
 script:
   - gcc --coverage -O0 testmain.c -o testmain
   - ./testmain
