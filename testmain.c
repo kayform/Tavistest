@@ -2,6 +2,6 @@
 
 int main()
 {
-	printf("hello wawwwwwwwwwwwwwabcww\n");
+	printf("hello 8888888\n");
 	return 0;	
 }
